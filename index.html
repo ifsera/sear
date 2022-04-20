@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang=”en”>
+<head>
+<title>SEAR</title>
+<meta name="description" content="SEAR">
+<meta name="keywords" content="html tutorial template">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="icon" type="image/png" href="img/logo.png" />
+<style type="text/css">
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Avenir', sans-serif; 
+  color: #33475b;    
+}
+
+/* Centered Image Code */
+footer {
+        position: relative;
+        width: 100%;
+}
+
+p.copyright {
+        position: absolute;
+        width: 100%;
+       /** color: #fff;*/
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+}
+.center {
+  height: px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: 3px solid #dbe4ed; /* Border color is optional */  
+
+}
+
+/* carousel styles*/
+@-webkit-keyframes scroll {
+0% {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+100% {
+-webkit-transform: translateX(calc(-250px * 7));
+transform: translateX(calc(-250px * 7));
+}
+}
+@keyframes scroll {
+0% {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+100% {
+-webkit-transform: translateX(calc(-250px * 7));
+transform: translateX(calc(-250px * 7));
+}
+}
+.slider {
+background: pr;
+box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+height: 660px;
+margin: auto;
+overflow: hidden;
+position: relative;
+width: 650px;
+}
+.slider::before, .slider::after {
+background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+content: "";
+height: 660px;
+position: absolute;
+width: 200px;
+z-index: 2;
+}
+.slider::after {
+right: 0;
+top: 0;
+-webkit-transform: rotateZ(180deg);
+transform: rotateZ(180deg);
+}
+.slider::before {
+left: 0;
+top: 0;
+}
+.slider .slide-track {
+-webkit-animation: scroll 40s linear infinite;
+animation: scroll 40s linear infinite;
+display: flex;
+width: calc(250px * 14);
+}
+.slider .slide {
+height: auto;
+width: 365px;
+}
+div {
+	width: 100%;
+	text-align:center;
+}
+h1
+{
+    font-style: italic;
+    font-weight: bold;
+}
+</style>
+    <script type="text/javascript" 
+    src="js/3.4.1_jquery.min.js"></script> 
+
+</head>
+<body>
+<div class="center" style="text-align="center";">   
+
+	<img src="img/logo.png" width="300px" style="margin-bottom:10px;" />
+
+	</div>
+	<div class="center" >
+	  <div lang="en" class="wrapper">
+	  	<br/>
+		<p style="text-align:justify;">The pleasure of playing, the pleasure of sharing. Whether with the traditional hangman,
+or 3G1I, or Awal, we provide you with a number of configurable fun games without intrusive advertisements.
+Come and try them!!!</p>
+		</div>
+		<div lang="fr" class="wrapper">
+			<br/>
+		<p style="text-align:justify;">Le plaisir de jouer, le plaisir de partager. Que cela soit avec le traditionnel pendu, 
+		ou 3G1I, ou encore Awal, nous mettons à votre disposition nombre de jeux ludiques configurables et sans publicités intrusives.
+		Venez les essayer!!!
+			</p>
+		<div/>
+
+			<div lang="es" class="wrapper" >
+			<br/>
+		<p style="text-align:justify;">El placer de jugar, el placer de compartir. Ya sea con el verdugo tradicional,
+o 3G1I, o Awal, ponemos a su disposición una serie de divertidos juegos configurables sin anuncios intrusivos.
+Ven y pruébalos!!!</p>
+			</div>
+	</div>
+		<br/>
+	<br/>
+	   <a href="https://play.google.com/store/apps/details?id=com.sear.pendu">   
+	<img src="img/pendu/logo_wb.webp" width="128px" style="margin-bottom:10px;" />
+	</a>
+	<br/>
+
+
+<div lang="fr" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/pendu/fr_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/fr_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/fr_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/fr_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/fr_5.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+<div lang="en" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/pendu/en_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/en_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/en_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/en_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/en_5.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+
+<div lang="es" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/pendu/sp_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/sp_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/sp_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/sp_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/pendu/sp_5.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+<br/>
+
+<br/>
+   <p style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.sear.gridsword">   
+	<img src="img/4g1i/logo.png" width="128px" style="margin-bottom:10px;" />
+	</a></p>
+	
+<div lang="fr" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/4g1i/fr_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_5.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_6.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/fr_7.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+<div lang="en" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/4g1i/en_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/en_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/en_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/en_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/en_5.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/4g1i/en_6.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+	<br/>
+	<br/>
+		<br/>
+	<br/>
+<p style="text-align:center;">
+   <a href="https://play.google.com/store/apps/details?id=com.sear.awal">   
+	<img src="img/awal/logo.png" width="128px" style="margin-bottom:10px;" />
+	</a>
+</p>
+
+<div lang="fr" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/awal/fr_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/fr_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/fr_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/fr_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/fr_5.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/fr_6.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+<div lang="en" class="wrapper" >
+<div class="slider" style="margin-left:-10px;">
+<div class="slide-track">
+<div class="slide">
+<img src="img/awal/en_1.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/en_2.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/en_3.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/en_4.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/en_5.jpg"  alt="" />
+</div>
+<div class="slide">
+<img src="img/awal/en_6.jpg"  alt="" />
+</div>
+</div>
+</div>
+</div>
+<!-- partial -->
+</div>
+
+	<script type="text/javascript">
+var known = {
+  en: true,
+  fr: true,
+  es: true
+};
+
+// Figure out the language, default to English because that's
+// what I speak.
+var lang = ((navigator.languages && navigator.languages[0]) && navigator.language || navigator.userLanguage || 'en').substr(0, 2);
+
+if (!known[lang])
+  lang = 'en';
+
+// Find all <div>s with a class of "wrapper" and lang attribute equal
+// to `lang` and make them visibile.
+$('div.wrapper[lang=' + lang + ']').show();
+
+// Find all <div>s with a class of "wrapper" and lang attribute not
+// equal to `lang` and make them invisibile.
+$('div.wrapper[lang!=' + lang + ']').hide();
+
+</script>
+
+
+<!--2021-->
+<footer style="padding-top:70px;">
+    <p class="copyright"> © Copyright 2022 Company SEAR. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
